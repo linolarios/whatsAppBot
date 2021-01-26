@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.linux'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '8'
+sourceCompatibility = '15'
 
 repositories {
 	mavenCentral()

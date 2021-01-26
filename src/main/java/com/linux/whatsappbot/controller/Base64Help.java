@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 
 public class Base64Help {
 
-    static public String getPDFtring() throws IOException {
+    static public String getPDFString() throws IOException {
         return new String(Files.readAllBytes(Paths.get("src/main/resources/pdf.txt")));
     }
 
